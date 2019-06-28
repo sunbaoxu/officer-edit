@@ -4,8 +4,8 @@ const CryptoJS = require('crypto-js');  //引用CryptoJS加密库 使用前项�
 
 // 账号密码加密部分
 
-const key = CryptoJS.enc.Utf8.parse("d#skd9W1BvM^yijl");  //密钥后端提供
-const iv = CryptoJS.enc.Utf8.parse('d#skd9W1BvM^yijl');   //密钥偏移量后端提供
+const key = CryptoJS.enc.Utf8.parse("1111111");  //密钥后端提供
+const iv = CryptoJS.enc.Utf8.parse('1111111');   //密钥偏移量后端提供
 
 //AES加密方法 账号密码使用
 function Encrypt(word) {
@@ -18,7 +18,7 @@ function Encrypt(word) {
 
 //秘钥混合  后端提供秘钥按照一定规则打乱混合（规则后端提供）
 function mixKey() {
-  let key = 'O4NPUu8yaNIpSGEsR6zGUwmbz6Cr4Iks8efhaF'
+  let key = '2222222222'
   for(let i=1;i<6;i++){
     key = key.substring(i)+key.substring(0,i)
   }
