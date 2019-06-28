@@ -73,7 +73,7 @@ export default {
   },
   data () {
     return {
-      initImg:'/static/img/img/up.png',
+      initImg:'/bx-officer/static/img/img/up.png',
       btnAsync : false,
       dialogFormVisible :false,
       type:'2',

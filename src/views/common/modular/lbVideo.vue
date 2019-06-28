@@ -141,7 +141,7 @@ export default {
         imgArr :[],
         videoArr:[]
       },
-      initImg:'/static/img/img/up.png',
+      initImg:'/bx-officer/static/img/img/up.png',
       dialogFormVisible : false,
       autoCropObj :{
         autoCropWidth : 690,
@@ -319,12 +319,12 @@ export default {
       }
       &:nth-child(1){
         div{
-          background-image: url('/static/img/video/img1.png');
+          background-image: url('/bx-officer/static/img/video/img1.png');
         }
       }
       &:last-child{
         div{
-          background-image: url('/static/img/video/img2.png');
+          background-image: url('/bx-officer/static/img/video/img2.png');
         }
       }
       &.on{
@@ -360,7 +360,7 @@ export default {
         background-color: rgb(247,248,252);
         
         .video-icon{
-          background: url('/static/img/video/video.png') no-repeat center;
+          background: url('/bx-officer/static/img/video/video.png') no-repeat center;
           background-size: 100%;
           position:absolute;
           left: 50%;
