@@ -23,7 +23,7 @@
             :class="{'on':i==obj.logoCosid}"
             @click="clickIconFn(m,i)"
           >
-            <i class="g-back" :style="'backgroundImage:url(https://tsfile.labifenqi.com/staticFile/public/officer/title/'+m+')'"></i>
+            <i class="g-back" :style="'backgroundImage:url(/static/img/title/'+m+')'"></i>
           </li>
         </ul>
       </el-col>
