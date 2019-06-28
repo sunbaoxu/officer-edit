@@ -47,7 +47,7 @@ export default {
   },
   data () {
     return {
-      initImg:'https://tsfile.labifenqi.com/staticFile/public/officer/img/up.png',
+      initImg:'/static/img/img/up.png',
       swiperOption :{
         loop:true,
         autoplay:true,

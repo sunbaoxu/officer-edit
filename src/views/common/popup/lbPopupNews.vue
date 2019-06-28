@@ -73,7 +73,7 @@ export default {
   },
   data () {
     return {
-      initImg:'https://tsfile.labifenqi.com/staticFile/public/officer/img/up.png',
+      initImg:'/static/img/img/up.png',
       btnAsync : false,
       dialogFormVisible :false,
       type:'2',

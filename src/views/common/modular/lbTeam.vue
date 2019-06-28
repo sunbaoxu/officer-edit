@@ -23,7 +23,7 @@
             :class="{'on':i==obj.logoCosid}"
             @click="clickIconFn(m,i)"
           >
-            <i class="g-back" :style="'backgroundImage:url(https://tsfile.labifenqi.com/staticFile/public/officer/title/'+m+')'"></i>
+            <i class="g-back" :style="'backgroundImage:url(/static/img/title/'+m+')'"></i>
           </li>
         </ul>
       </el-col>
@@ -172,7 +172,7 @@ export default {
       ],
       obj :{},
       ind:0,
-      initImg:'https://tsfile.labifenqi.com/staticFile/public/officer/img/up.png',
+      initImg:'/static/img/img/up.png',
     }
   },
   methods : {
@@ -190,7 +190,7 @@ export default {
     },
     //选择icon
     clickIconFn (name,logoCosid) {
-      let logoUrl = 'https://tsfile.labifenqi.com/staticFile/public/officer/title/'+name;
+      let logoUrl = '/static/img/title/'+name;
           Object.assign(this.obj,{logoUrl,logoCosid});
           this.setPageData(this.obj);
           this.obj.logoCosid = logoCosid;

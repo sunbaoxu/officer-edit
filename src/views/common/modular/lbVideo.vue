@@ -141,7 +141,7 @@ export default {
         imgArr :[],
         videoArr:[]
       },
-      initImg:'https://tsfile.labifenqi.com/staticFile/public/officer/img/up.png',
+      initImg:'/static/img/img/up.png',
       dialogFormVisible : false,
       autoCropObj :{
         autoCropWidth : 690,
@@ -319,12 +319,12 @@ export default {
       }
       &:nth-child(1){
         div{
-          background-image: url('https://tsfile.labifenqi.com/staticFile/public/officer/video/img1.png');
+          background-image: url('/static/img/video/img1.png');
         }
       }
       &:last-child{
         div{
-          background-image: url('https://tsfile.labifenqi.com/staticFile/public/officer/video/img2.png');
+          background-image: url('/static/img/video/img2.png');
         }
       }
       &.on{
@@ -360,7 +360,7 @@ export default {
         background-color: rgb(247,248,252);
         
         .video-icon{
-          background: url('https://tsfile.labifenqi.com/staticFile/public/officer/video/video.png') no-repeat center;
+          background: url('/static/img/video/video.png') no-repeat center;
           background-size: 100%;
           position:absolute;
           left: 50%;

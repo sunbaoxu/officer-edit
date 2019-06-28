@@ -42,6 +42,7 @@ export default {
     padding:15px;
     border-radius: 4px;
     box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.10);
+    text-align: left;
     &.cen{
       text-align: center;
     }

@@ -79,7 +79,7 @@ export default {
     },
     //选择icon
     clickIconFn (name,logoCosid) {
-      let logoUrl = 'https://tsfile.labifenqi.com/staticFile/public/officer/title/'+name;
+      let logoUrl = '/static/img/title/'+name;
           Object.assign(this.obj,{logoUrl,logoCosid});
           this.setPageData(this.obj);
           this.obj.logoCosid = logoCosid;
