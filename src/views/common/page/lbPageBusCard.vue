@@ -52,8 +52,8 @@ export default {
   },
   data () {
     return {
-      initImg:'https://tsfile.labifenqi.com/staticFile/public/officer/bus-card/img1.png',
-      logoImg:'https://tsfile.labifenqi.com/staticFile/public/officer/bus-card/logo.png'
+      initImg:'/static/img/bus-card/img1.png',
+      logoImg:'/static/img/bus-card/logo.png'
     }
   }
 }
@@ -70,7 +70,7 @@ export default {
       margin-bottom: 15px;
       background-color: #fff;
       &.on{
-        background: url('https://tsfile.labifenqi.com/staticFile/public/officer/bus-card/mark.png') no-repeat top right;
+        background: url('/static/img/bus-card/mark.png') no-repeat top right;
         background-color: #fff;
         background-size: 24px;
       }

@@ -266,12 +266,12 @@ export default {
       }
       &:nth-child(1){
         div{
-          background-image: url('https://tsfile.labifenqi.com/staticFile/public/officer/partner/img1.png');
+          background-image: url('/static/img/partner/img1.png');
         }
       }
       &:last-child{
         div{
-          background-image: url('https://tsfile.labifenqi.com/staticFile/public/officer/partner/img2.png');
+          background-image: url('/static/img/partner/img2.png');
         }
       }
       &.on{

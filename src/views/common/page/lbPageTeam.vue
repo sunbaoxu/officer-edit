@@ -77,7 +77,7 @@ export default {
           }
         }
         &>i{
-          background: url('https://tsfile.labifenqi.com/staticFile/public/officer/bus-card/mark.png') no-repeat top right;
+          background: url('/static/img/bus-card/mark.png') no-repeat top right;
           background-size: 24px;
           position:absolute;
           top: 0;

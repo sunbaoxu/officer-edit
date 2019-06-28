@@ -16,13 +16,13 @@ axios.interceptors.request.use((config)=>{
 
 axios.interceptors.response.use((response) => {
   if (response.data.code === -405) {
-    MessageBox.alert('账号未登录，请重新登录',response.data.message,{
-      confirmButtonText: '确定',
-      callback: action => {
-        localStorage.clear();
-        location.href = window.location.origin + '/h5-hzbmis/login';
-      }
-    });
+    // MessageBox.alert('账号未登录，请重新登录',response.data.message,{
+    //   confirmButtonText: '确定',
+    //   callback: action => {
+    //     localStorage.clear();
+    //     location.href = window.location.origin + '/h5-hzbmis/login';
+    //   }
+    // });
   } else if(response.data.code == -200 || response.data.code == -201){
     
   }
