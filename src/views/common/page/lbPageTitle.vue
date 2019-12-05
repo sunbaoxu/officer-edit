@@ -41,8 +41,5 @@ export default {
     height: 20px;
     margin-right: 10px;
   }
-  span{
-
-  }
 }
 </style>

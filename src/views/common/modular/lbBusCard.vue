@@ -127,7 +127,7 @@ export default {
     },
     //选择icon
     clickIconFn (name,logoCosid) {
-      let logoUrl = '~@/assets/img/title/'+name;
+      let logoUrl = require('@/assets/img/title/'+name);
           Object.assign(this.obj,{logoUrl,logoCosid});
           this.setPageData(this.obj);
           this.obj.logoCosid = logoCosid;
