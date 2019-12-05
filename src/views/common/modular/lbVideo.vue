@@ -141,7 +141,7 @@ export default {
         imgArr :[],
         videoArr:[]
       },
-      initImg:'static/img/img/up.png',
+      initImg:'~@/assets/img/img/up.png',
       dialogFormVisible : false,
       autoCropObj :{
         autoCropWidth : 690,
@@ -319,12 +319,12 @@ export default {
       }
       &:nth-child(1){
         div{
-          background-image: url('/static/img/video/img1.png');
+          background-image: url('~@/assets/img/video/img1.png');
         }
       }
       &:last-child{
         div{
-          background-image: url('/static/img/video/img2.png');
+          background-image: url('~@/assets/img/video/img2.png');
         }
       }
       &.on{

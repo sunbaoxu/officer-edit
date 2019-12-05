@@ -97,7 +97,7 @@ export default {
       obj : {
         imgArr :[]
       },
-      initImg:'static/img/img/up.png',
+      initImg:'~@/assets/img/img/up.png',
       dialogFormVisible : false,
       autoCropObj :{
         autoCropWidth : 690,
@@ -240,28 +240,28 @@ export default {
       }
       &:nth-child(1){
         div{
-          background-image: url('/static/img/img/img1.png');
+          background-image: url('~@/assets/img/img/img1.png');
         }
       }
       &:nth-child(2){
         div{
-          background-image: url('/static/img/img/img2.png');
+          background-image: url('~@/assets/img/img/img2.png');
         }
       }
       &:nth-child(3){
         div{
-          background-image: url('/static/img/img/img3.png');
+          background-image: url('~@/assets/img/img/img3.png');
         }
       }
       &:last-child{
         div{
-          background-image: url('/static/img/img/img4.png');
+          background-image: url('~@/assets/img/img/img4.png');
         }
       }
       &:hover{
         &:nth-child(2){
           div{
-            background-image: url('/static/img/img/img2.gif');
+            background-image: url('~@/assets/img/img/img2.gif');
           }
         }
       }

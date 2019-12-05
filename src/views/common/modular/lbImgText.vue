@@ -195,7 +195,7 @@ export default {
       obj : {
         detailsArr :[]
       },
-      initImg:'static/img/img/up.png',
+      initImg:'~@/assets/img/img/up.png',
       dialogFormVisible : false,
       autoCropObj :{
         autoCropWidth : 690,
@@ -377,28 +377,28 @@ export default {
       &.type-li{
         &:nth-child(1){
           div{
-            background-image: url('/static/img/imgText/img1.png');
+            background-image: url('~@/assets/img/imgText/img1.png');
           }
         }
         &:nth-child(2){
           div{
-            background-image: url('/static/img/imgText/img2.png');
+            background-image: url('~@/assets/img/imgText/img2.png');
           }
         }
         &:nth-child(3){
           div{
-            background-image: url('/static/img/imgText/img3.png');
+            background-image: url('~@/assets/img/imgText/img3.png');
           }
         }
         &:last-child{
           div{
-            background-image: url('/static/img/imgText/img4.png');
+            background-image: url('~@/assets/img/imgText/img4.png');
           }
         }
         &:hover{
           &:nth-child(3){
             div{
-              background-image: url('/static/img/imgText/img3.png');
+              background-image: url('~@/assets/img/imgText/img3.png');
               // background-position: center -2px;
             }
           }
@@ -407,22 +407,22 @@ export default {
       &.pos-li{
         &.img1{
           div{
-            background-image: url('/static/img/imgText/img-1.png');
+            background-image: url('~@/assets/img/imgText/img-1.png');
           }
         }
         &.img2{
           div{
-            background-image: url('/static/img/imgText/img-2.png');
+            background-image: url('~@/assets/img/imgText/img-2.png');
           }
         }
         &.img3{
           div{
-            background-image: url('/static/img/imgText/img-3.png');
+            background-image: url('~@/assets/img/imgText/img-3.png');
           }
         }
         &.img4{
           div{
-            background-image: url('/static/img/imgText/img-4.png');
+            background-image: url('~@/assets/img/imgText/img-4.png');
           }
         }
       }
