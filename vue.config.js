@@ -3,6 +3,9 @@ function resolve (dir) {
   return path.join(__dirname, dir)
 }
 
+const address = require('address');
+const localhost = address.ip() || 'localhost';
+
 module.exports = {
     /** 区分打包环境与开发环境
      * process.env.NODE_ENV==='production'  (打包环境)
@@ -10,8 +13,8 @@ module.exports = {
      * baseUrl: process.env.NODE_ENV==='production'?"https://cdn.didabisai.com/front/":'front/',
      */
     // 项目部署的基础路径
-    // baseUrl: "/bx-officer/",
-    publicPath:'/bx-officer/',
+    // baseUrl: "/",
+    publicPath:'./',
     // 构建好的文件输出到哪里
     outputDir: "officer-dist", 
     // where to put static assets (js/css/img/font/...) // 是否在保存时使用‘eslint-loader’进行检查 // 有效值: true | false | 'error' // 当设置为‘error’时，检查出的错误会触发编译失败
@@ -48,7 +51,7 @@ module.exports = {
     pwa: {}, // configure webpack-dev-server behavior
     devServer: {
       disableHostCheck: false,
-      // host: "10.204.14.223",
+      host: localhost,
       open :true,
       port: 8088,
       https: false,

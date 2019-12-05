@@ -50,7 +50,7 @@ export default {
   },
   data () {
     return {
-      initImg:'/bx-officer/static/img/img/up.png'
+      initImg:'/static/img/img/up.png'
     }
   }
 }
@@ -77,7 +77,7 @@ export default {
           }
         }
         &>i{
-          background: url('/bx-officer/static/img/bus-card/mark.png') no-repeat top right;
+          background: url('/static/img/bus-card/mark.png') no-repeat top right;
           background-size: 24px;
           position:absolute;
           top: 0;

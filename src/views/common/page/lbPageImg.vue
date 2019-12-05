@@ -68,7 +68,7 @@ export default {
   },
   data () {
     return {
-      initImg:'/bx-officer/static/img/img/up.png'
+      initImg:'/static/img/img/up.png'
     }
   }
 }

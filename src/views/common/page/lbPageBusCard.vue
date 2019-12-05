@@ -52,8 +52,8 @@ export default {
   },
   data () {
     return {
-      initImg:'/bx-officer/static/img/bus-card/img1.png',
-      logoImg:'/bx-officer/static/img/bus-card/logo.png'
+      initImg:'/static/img/bus-card/img1.png',
+      logoImg:'/static/img/bus-card/logo.png'
     }
   }
 }
@@ -70,7 +70,7 @@ export default {
       margin-bottom: 15px;
       background-color: #fff;
       &.on{
-        background: url('/bx-officer/static/img/bus-card/mark.png') no-repeat top right;
+        background: url('/static/img/bus-card/mark.png') no-repeat top right;
         background-color: #fff;
         background-size: 24px;
       }
