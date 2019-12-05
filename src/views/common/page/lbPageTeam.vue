@@ -50,7 +50,7 @@ export default {
   },
   data () {
     return {
-      initImg:'~@/assets/img/img/up.png'
+      initImg:require('@/assets/img/img/up.png'),
     }
   }
 }
@@ -77,7 +77,7 @@ export default {
           }
         }
         &>i{
-          background: url('/static/img/bus-card/mark.png') no-repeat top right;
+          background: url('~@/assets/img/bus-card/mark.png') no-repeat top right;
           background-size: 24px;
           position:absolute;
           top: 0;

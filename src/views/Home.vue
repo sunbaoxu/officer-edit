@@ -40,7 +40,7 @@
             <lb-page-bus-card v-else-if="m.type == '20007'" :obj="m" :ind="i" :async="currentObj.id == m.id" />
           </section>
           <div v-if="pageArr.length <=0" class="ind-page-box g-col-cen-cen-box">
-            <div class="g-back" style="backgroundImage:url(~@/assets/img/img/up.png)"></div>
+            <div class="g-back" :style="'backgroundImage:url('+require('@/assets/img/img/up.png')+')'"></div>
             <p>还没有可以编辑的内容组件</p>
           </div>
         </section>
@@ -74,7 +74,7 @@
         <!-- 名片 -->
         <lb-bus-card v-else-if="currentObj.type == '20007'"/>
         <div v-else class="ind-page-box g-col-cen-cen-box">
-          <div class="g-back" style="backgroundImage:url(~@/assets/img/img/up.png)"></div>
+          <div class="g-back" :style="'backgroundImage:url('+require('@/assets/img/img/up.png')+')'"></div>
           <p>还没有可以编辑的内容组件</p>
         </div>
       </section>

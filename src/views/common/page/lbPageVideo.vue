@@ -78,7 +78,7 @@ export default {
   },
   data () {
     return {
-      initImg:'~@/assets/img/img/up.png'
+      initImg:require('@/assets/img/img/up.png'),
     }
   }
 }
@@ -97,7 +97,7 @@ export default {
         height: 200px;
         position: relative;
         .video-icon{
-          background: url('/static/img/video/video.png') no-repeat center;
+          background: url('~@/assets/img/video/video.png') no-repeat center;
           background-size: 100%;
           position:absolute;
           left: 50%;
@@ -128,7 +128,7 @@ export default {
           height: 100px;
           position: relative;
           .video-icon{
-            background: url('/static/img/video/video.png') no-repeat center;
+            background: url('~@/assets/img/video/video.png') no-repeat center;
             background-size: 100%;
             position:absolute;
             left: 50%;

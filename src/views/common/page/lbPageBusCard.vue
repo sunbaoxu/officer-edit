@@ -18,7 +18,7 @@
               <p>邮箱：{{m.email}}</p>
             </div>
           </dd>
-          <dt class="g-back" :style="'backgroundImage:url('+(m.fileUrl ||(m.pid&&logoImg)|| initImg)+')'"></dt>
+          <dt class="g-back" :style="'backgroundImage:url('+(m.fileUrl || initImg)+')'"></dt>
         </dl>
       </li>
     </ul>
@@ -52,8 +52,7 @@ export default {
   },
   data () {
     return {
-      initImg:'~@/assets/img/bus-card/img1.png',
-      logoImg:'~@/assets/img/bus-card/logo.png'
+      initImg:require('@/assets/img/bus-card/img1.png'),
     }
   }
 }
@@ -70,7 +69,7 @@ export default {
       margin-bottom: 15px;
       background-color: #fff;
       &.on{
-        background: url('/static/img/bus-card/mark.png') no-repeat top right;
+        background: url('~@/assets/img/bus-card/mark.png') no-repeat top right;
         background-color: #fff;
         background-size: 24px;
       }

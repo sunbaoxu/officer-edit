@@ -23,7 +23,7 @@
             :class="{'on':i==obj.logoCosid}"
             @click="clickIconFn(m,i)"
           >
-            <i class="g-back" :style="'backgroundImage:url(~@/assets/img/title/'+m+')'"></i>
+            <i class="g-back" :style="'backgroundImage:url('+require('@/assets/img/title/'+m)+')'"></i>
           </li>
         </ul>
       </el-col>
@@ -109,7 +109,7 @@ export default {
         'phone.png'
       ],
       obj :{},
-      initImg:'~@/assets/img/img/up.png',
+      initImg:require('@/assets/img/img/up.png'),
       ind:'',
       newsArr:[]
 

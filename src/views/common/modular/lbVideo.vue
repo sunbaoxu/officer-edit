@@ -141,7 +141,7 @@ export default {
         imgArr :[],
         videoArr:[]
       },
-      initImg:'~@/assets/img/img/up.png',
+      initImg:require('@/assets/img/img/up.png'),
       dialogFormVisible : false,
       autoCropObj :{
         autoCropWidth : 690,
@@ -360,7 +360,7 @@ export default {
         background-color: rgb(247,248,252);
         
         .video-icon{
-          background: url('/static/img/video/video.png') no-repeat center;
+          background: url('~@/assets/img/video/video.png') no-repeat center;
           background-size: 100%;
           position:absolute;
           left: 50%;

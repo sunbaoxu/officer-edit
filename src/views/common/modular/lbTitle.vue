@@ -23,7 +23,7 @@
             :class="{'on':i==obj.logoCosid}"
             @click="clickIconFn(m,i)"
           >
-            <i class="g-back" :style="'backgroundImage:url(~@/assets/img/title/'+m+')'"></i>
+            <i class="g-back" :style="'backgroundImage:url('+require('@/assets/img/title/'+m)+')'"></i>
           </li>
         </ul>
       </el-col>

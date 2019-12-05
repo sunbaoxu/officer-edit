@@ -41,7 +41,7 @@ export default {
   },
   data () {
     return {
-      initImg:'~@/assets/img/img/up.png'
+      initImg:require('@/assets/img/img/up.png'),
     }
   }
 }
