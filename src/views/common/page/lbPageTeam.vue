@@ -50,7 +50,7 @@ export default {
   },
   data () {
     return {
-      initImg:'/static/img/img/up.png'
+      initImg:'static/img/img/up.png'
     }
   }
 }

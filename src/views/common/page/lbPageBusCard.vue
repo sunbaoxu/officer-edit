@@ -52,8 +52,8 @@ export default {
   },
   data () {
     return {
-      initImg:'/static/img/bus-card/img1.png',
-      logoImg:'/static/img/bus-card/logo.png'
+      initImg:'static/img/bus-card/img1.png',
+      logoImg:'static/img/bus-card/logo.png'
     }
   }
 }

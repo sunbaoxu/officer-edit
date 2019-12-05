@@ -23,7 +23,7 @@
             :class="{'on':i==obj.logoCosid}"
             @click="clickIconFn(m,i)"
           >
-            <i class="g-back" :style="'backgroundImage:url(/static/img/title/'+m+')'"></i>
+            <i class="g-back" :style="'backgroundImage:url(static/img/title/'+m+')'"></i>
           </li>
         </ul>
       </el-col>
@@ -123,7 +123,7 @@ export default {
         'wenjian.png',
         'phone.png'
       ],
-      initImg:'/static/img/img/up.png',
+      initImg:'static/img/img/up.png',
       obj : {
         imgArr :[]
       },
@@ -159,7 +159,7 @@ export default {
     },
     //选择icon
     clickIconFn (name,logoCosid) {
-      let logoUrl = '/static/img/title/'+name;
+      let logoUrl = 'static/img/title/'+name;
           Object.assign(this.obj,{logoUrl,logoCosid});
           this.setPageData(this.obj);
           this.obj.logoCosid = logoCosid;

@@ -97,7 +97,7 @@ export default {
       obj : {
         imgArr :[]
       },
-      initImg:'/static/img/img/up.png',
+      initImg:'static/img/img/up.png',
       dialogFormVisible : false,
       autoCropObj :{
         autoCropWidth : 690,

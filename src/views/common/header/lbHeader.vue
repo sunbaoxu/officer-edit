@@ -1,7 +1,7 @@
 <template>
   <section class="lb-header-wrap">
     <div class="lef g-cen-y">
-      <img src="/h5-hzbmis/static/img/logo-icon.png" alt="">
+      <img src="/h5-hzbmisstatic/img/logo-icon.png" alt="">
       <span>{{midObj.tname}}商户平台</span>
     </div>
     <div class="rig g-cen-y">
