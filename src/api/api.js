@@ -1,23 +1,5 @@
 import {fetch} from './config.js';
-// import {
-//   BMISAPIEDIT,
-//   ULOGINNCCLC,
-//   TTBAPIBUSER,
-//   SYSTEMSERVE
-// } from './baseUrl';
 export default {
-
-//*登录*/
-//退出
-logout(params){return fetch(`passport/logout`, params,'post')},
-
-
-
-
-
-
-
-
 
 /** 动态官网 */
 //上传图片
@@ -43,33 +25,8 @@ deleteRecruitmentInfo(params) {return fetch(`deleteRecruitmentInfo`, params,'get
 checkTemplateIssueStatue(params) {return fetch(`checkTemplateIssueStatue`, params,'get')},
 //获取编辑模板或者主模板.type=0:编辑中的模板;type=1:已发布的主模板
 getTemplateInfo(params) {return fetch(`getTemplateInfo`, params,'get')},
-//新增或者修改话术组名
-addOrUpdateVerbalTrickGroup(params) {return fetch(`addOrUpdateVerbalTrickGroup`, params,'post')},
-//获取话术库列表
-getVerbalTrickList(params) {return fetch(`getVerbalTrickList`, params,'get')},
-//删除话术组
-deleteVerbalTrickGroupById(params) {return fetch(`deleteVerbalTrickGroupById`, params,'get')},
-//新增或者修改话术详情
-addOrUpdateVerbalTrickDetail(params) {return fetch(`addOrUpdateVerbalTrickDetail`, params,'post')},
-//删除话术详情
-deleteVerbalTrickDetailById(params) {return fetch(`deleteVerbalTrickDetailById`, params,'get')},
-//获取系统通知列表
-getSystemInformList(params) {return fetch(`getSystemInformList`, params,'post')},
-//发布系统通知
-issueSystemInform(params) {return fetch(`issueSystemInform`, params,'post')},
 //上传视频
 saveAndGetFile(params,config){return fetch(`saveFile`,params,'date',config)},
 
-//动态设置
-//获取企业动态
-getDynamic(params) {return fetch(`dynamicapi/dynamic/date/List`, params,'post')},
-//查询企业
-inquireDynamic(params) {return fetch(`dynamicapi/dynamic/did/get`, params,'post')},
-//保存动态
-saveDynamic(params) {return fetch(`dynamicapi/dynamic/attribute/mid/save`, params, 'post')},
-//发布动态
-publishDynamic(params) {return fetch(`dynamicapi/dynamic/release`, params, 'post')},
-//上传多张图片
-uploadMultipleImage(params) {return fetch(`uploadMultipleFile`, params,'post')},
 
 }
